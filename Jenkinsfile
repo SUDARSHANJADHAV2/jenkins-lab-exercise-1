@@ -1,7 +1,7 @@
 pipeline{
   agent any
   environment{
-      DOCKER_IMAGE="Largest-number"
+      DOCKER_IMAGE="largest-number"
   }
   stages{
       stage("Checkout"){
